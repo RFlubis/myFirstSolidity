@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"firstSolidity/SimpleStorage.sol": "SimpleStorage"
+			"SimpleStorage.sol": "SimpleStorage"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"firstSolidity/SimpleStorage.sol": {
-			"keccak256": "0x508420b8a68e99fd091947f0a7d04a6ea18288f85c0f16fc67e5937bab080818",
+		"SimpleStorage.sol": {
+			"keccak256": "0xc66704ff5b8637f022e71fd4705d28909e1d8e51d26fd203f30e9c2fb10181fb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4f4de4f18b6c9f7ecb9ea2a5d37d9badb4d02b8a0f31ce83365dea747e22a4bf",
-				"dweb:/ipfs/QmSU2J1ZeczDbbsw135Qa4a7kP4sUybFGoUiNLbg9uNsFe"
+				"bzz-raw://b81deb6d8fdfff0d8b11f32d38e61eb4fe052e922ba97a30c1d3326dc3761b0c",
+				"dweb:/ipfs/QmXoy6MYGLbgXgPepLf8ap1NYdrhxJMiJ1bnYcJYmRWfmE"
 			]
 		}
 	},

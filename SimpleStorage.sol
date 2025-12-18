@@ -35,9 +35,13 @@ contract SimpleStorage{
     function retrieve() public view returns(uint256){
         return myFavoriteNumber;
     }
+    //search favorite number by name
+    mapping(string => uint256) public nameToFavoriteNumber;
 
     function addPerson(string memory _name, uint256 _favoriteNumeber) public{
         // Person memory newPerson = Person(_favoriteNumeber, _name);
         listOfPeople.push(Person(_favoriteNumeber,_name));
+        nameToFavoriteNumber[_name] = _favoriteNumeber;
     }
+
 }
